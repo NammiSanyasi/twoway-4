@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'twoWay';
+  // val: any;
+  // x:any
+  // fun()
+  // {
+  //   const el = document.getElementById('nam') as HTMLInputElement;
+  //   this.val = el.value;
+    
+  // }
+  
+  name!: string;
+  em!: string;
+  pass!: string;
+  show()
+  {
+   
+    alert(`successfully submitted \n ${this.name} \n ${this.em} \n ${this.pass}`)
+  }
 }
