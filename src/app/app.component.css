@@ -70,5 +70,37 @@ body, html {
     margin: 5px 0;
   }
 
+  .container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
   
+  p {
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
   
+  .name, .email, .password {
+    font-size: 1.2em;
+  }
+  
+  .name {
+    color: #2c3e50;
+  }
+  
+  .email {
+    color: #2980b9;
+  }
+  
+  .password {
+    color: #e74c3c;
+  }
+  
+  .form-container {
+    align-items: center;
+  }

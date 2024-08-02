@@ -20,7 +20,10 @@ export class AppComponent {
   pass!: string;
   show()
   {
-   
-    alert(`successfully submitted \n ${this.name} \n ${this.em} \n ${this.pass}`)
+   alert(`successfully submitted \n ${this.name} \n ${this.em} \n ${this.pass}`)
   }
+
+  //name="nammi"
+  //em="nammi@gmail.com"
+  //pass=123456789
 }

@@ -6,18 +6,19 @@
 <br>
 <input type="text" placeholder="Enter something" [(ngModel)]="x">
 {{x}} -->
-
-<div class="container">
-<h1 >Signup</h1>
-<div class="box">
-  <input type="text" [(ngModel)]="name" placeholder="Enter the name"> <br><br>
-  <input type="email" [(ngModel)]="em" placeholder="enter the email"><br><br>
-  <input type="password" [(ngModel)]="pass" placeholder="enter the password"><br><br>
-  <button class="Signup" (click)="show()">Signup</button>
-</div>
-<div class="box">
-<p>Name is {{name}}</p>
-<p>Email is {{em}}</p>
-<p>Password is {{pass}}</p>
-</div>
+<div class="form-container">
+  <div class="container">
+    <h1 >Signup</h1>
+    <div class="box">
+       <input type="text" [(ngModel)]="name" placeholder="Enter the name"><br><br>
+       <input type="email" [(ngModel)]="em" placeholder="enter the email"><br><br>
+       <input type="password" [(ngModel)]="pass" placeholder="enter the password"><br><br>
+       <button class="Signup" (click)="show()">Signup</button>
+    </div>
+    <div class="container">
+      <p class="name"><strong>Name is  : {{name}}</strong></p>
+      <p class="email"><strong>Email is  : {{em}}</strong></p>
+      <p class="password"><strong>Password is  : {{pass}}</strong></p>
+    </div>
+  </div>
 </div>
